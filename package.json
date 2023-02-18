@@ -1,0 +1,35 @@
+{
+  "name": "ipp5-html-content",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "e53e04ac",
+  "homepage": "https://github.com/e53e04ac/ipp5-html-content#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e53e04ac/ipp5-html-content.git"
+  },
+  "bugs": {
+    "url": "https://github.com/e53e04ac/ipp5-html-content/issues"
+  },
+  "type": "module",
+  "types": "index.d.ts",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18.14.0",
+    "npm": ">=9.3.1"
+  },
+  "dependencies": {
+    "event-emitter": "github:e53e04ac/event-emitter",
+    "hold": "github:e53e04ac/hold",
+    "jsdom": "^21.1.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.0",
+    "@types/node": "^18.11.19"
+  }
+}
