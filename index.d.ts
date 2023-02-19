@@ -12,11 +12,11 @@ import { ValueOrGet } from 'hold';
 
 export declare namespace Ipp5HtmlContent {
 
-    type EventSpecs = Record<never, never>;
-
     type Options = {
         readonly html: ValueOrGet<Buffer | string>;
     };
+
+    type EventSpecs = Record<never, never>;
 
     type _Self = {
         readonly options: Get<Options>;
